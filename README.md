@@ -4,7 +4,7 @@ A pointless mini server which takes reports in and allows you to view them again
 ## Usage
 Usuage is pretty limited, you can send a report which must have an **`id`**, a **`type`** which must be either, `error`, `warn` or `info` and a **`message`**. Once you have posted some reports, you can access them by [viewing reports](#viewing-reports)
 
-### Posting new reports
+### Posting new reports
 
 ```
 curl --request PUT \
